@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/* ce programe est fait pour decider si le camion est valide pour passer sur le pont ou pas  */
 
 int main() {
-	float Psc,Pc,Pt;
+	float Psc,Pc,Pt; /*Psc :poid sans charges / Pc :poid de la charge / Pt: poid tottale*/
 	printf("veuillez entrer le poid du camion sans charge en kg : \n");
 	scanf("%f",&Psc);
 	  if (Psc<=5000)
